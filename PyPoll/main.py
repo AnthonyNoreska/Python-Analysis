@@ -3,7 +3,6 @@ import csv
 import os
 
 #Load the CSV data into a list of dictionaries
-
 csv_file_path = r'C:\Users\Admin\Documents\GitHub\Python-Analysis\PyPoll\Resources\election_data.csv'
 
 data = [row for row in csv.DictReader(open(csv_file_path, 'r', newline=''))]
